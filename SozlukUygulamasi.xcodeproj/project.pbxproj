@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B540DEE27BA67800038B664 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B540DED27BA67740038B664 /* libsqlite3.tbd */; };
+		5B540DFB27BA68680038B664 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540DF027BA68670038B664 /* FMDatabasePool.m */; };
+		5B540DFC27BA68680038B664 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540DF127BA68670038B664 /* FMDatabaseQueue.m */; };
+		5B540DFD27BA68680038B664 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540DF327BA68680038B664 /* FMDatabase.m */; };
+		5B540DFE27BA68680038B664 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540DF727BA68680038B664 /* FMResultSet.m */; };
+		5B540DFF27BA68680038B664 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540DF827BA68680038B664 /* FMDatabaseAdditions.m */; };
+		5B540E0227BA75A00038B664 /* Kelimelerdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B540E0127BA75A00038B664 /* Kelimelerdao.swift */; };
 		79325EEF22F03B0300B21CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325EEE22F03B0300B21CCA /* AppDelegate.swift */; };
 		79325EF122F03B0300B21CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325EF022F03B0300B21CCA /* ViewController.swift */; };
 		79325EF422F03B0300B21CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325EF222F03B0300B21CCA /* Main.storyboard */; };
@@ -14,6 +21,9 @@
 		79325EF922F03B0500B21CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325EF722F03B0500B21CCA /* LaunchScreen.storyboard */; };
 		79325F0422F03B0500B21CCA /* SozlukUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F0322F03B0500B21CCA /* SozlukUygulamasiTests.swift */; };
 		79325F0F22F03B0500B21CCA /* SozlukUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F0E22F03B0500B21CCA /* SozlukUygulamasiUITests.swift */; };
+		79325F1D22F03BE400B21CCA /* KelimeHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F1C22F03BE400B21CCA /* KelimeHucreTableViewCell.swift */; };
+		79325F1F22F03CB600B21CCA /* KelimeDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F1E22F03CB600B21CCA /* KelimeDetayViewController.swift */; };
+		79325F2122F03D6F00B21CCA /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F2022F03D6F00B21CCA /* Kelimeler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B540DED27BA67740038B664 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		5B540DEF27BA68670038B664 /* SozlukUygulamasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SozlukUygulamasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B540DF027BA68670038B664 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabasePool.m"; sourceTree = "<group>"; };
+		5B540DF127BA68670038B664 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		5B540DF227BA68680038B664 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabase.h"; sourceTree = "<group>"; };
+		5B540DF327BA68680038B664 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabase.m"; sourceTree = "<group>"; };
+		5B540DF427BA68680038B664 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabaseQueue.h"; sourceTree = "<group>"; };
+		5B540DF527BA68680038B664 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "../../../../../Downloads/FMDB Dosyaları/FMDB.h"; sourceTree = "<group>"; };
+		5B540DF627BA68680038B664 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabaseAdditions.h"; sourceTree = "<group>"; };
+		5B540DF727BA68680038B664 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "../../../../../Downloads/FMDB Dosyaları/FMResultSet.m"; sourceTree = "<group>"; };
+		5B540DF827BA68680038B664 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		5B540DF927BA68680038B664 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "../../../../../Downloads/FMDB Dosyaları/FMDatabasePool.h"; sourceTree = "<group>"; };
+		5B540DFA27BA68680038B664 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "../../../../../Downloads/FMDB Dosyaları/FMResultSet.h"; sourceTree = "<group>"; };
+		5B540E0027BA68B90038B664 /* sozluk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = sozluk.sqlite; path = "../../../../../Downloads/Sözlük Uygulaması - Sqlite Veritabanı/sozluk.sqlite"; sourceTree = "<group>"; };
+		5B540E0127BA75A00038B664 /* Kelimelerdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimelerdao.swift; sourceTree = "<group>"; };
 		79325EEB22F03B0300B21CCA /* SozlukUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SozlukUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325EEE22F03B0300B21CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79325EF022F03B0300B21CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,9 @@
 		79325F0A22F03B0500B21CCA /* SozlukUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325F0E22F03B0500B21CCA /* SozlukUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukUygulamasiUITests.swift; sourceTree = "<group>"; };
 		79325F1022F03B0500B21CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79325F1C22F03BE400B21CCA /* KelimeHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeHucreTableViewCell.swift; sourceTree = "<group>"; };
+		79325F1E22F03CB600B21CCA /* KelimeDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeDetayViewController.swift; sourceTree = "<group>"; };
+		79325F2022F03D6F00B21CCA /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B540DEE27BA67800038B664 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B540DEC27BA67740038B664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B540DED27BA67740038B664 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79325EE222F03B0300B21CCA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,7 @@
 				79325F0222F03B0500B21CCA /* SozlukUygulamasiTests */,
 				79325F0D22F03B0500B21CCA /* SozlukUygulamasiUITests */,
 				79325EEC22F03B0300B21CCA /* Products */,
+				5B540DEC27BA67740038B664 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +135,29 @@
 		79325EED22F03B0300B21CCA /* SozlukUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
+				5B540E0027BA68B90038B664 /* sozluk.sqlite */,
 				79325EEE22F03B0300B21CCA /* AppDelegate.swift */,
 				79325EF022F03B0300B21CCA /* ViewController.swift */,
 				79325EF222F03B0300B21CCA /* Main.storyboard */,
 				79325EF522F03B0500B21CCA /* Assets.xcassets */,
 				79325EF722F03B0500B21CCA /* LaunchScreen.storyboard */,
 				79325EFA22F03B0500B21CCA /* Info.plist */,
+				79325F1C22F03BE400B21CCA /* KelimeHucreTableViewCell.swift */,
+				79325F1E22F03CB600B21CCA /* KelimeDetayViewController.swift */,
+				79325F2022F03D6F00B21CCA /* Kelimeler.swift */,
+				5B540DF227BA68680038B664 /* FMDatabase.h */,
+				5B540DF327BA68680038B664 /* FMDatabase.m */,
+				5B540DF627BA68680038B664 /* FMDatabaseAdditions.h */,
+				5B540DF827BA68680038B664 /* FMDatabaseAdditions.m */,
+				5B540DF927BA68680038B664 /* FMDatabasePool.h */,
+				5B540DF027BA68670038B664 /* FMDatabasePool.m */,
+				5B540DF427BA68680038B664 /* FMDatabaseQueue.h */,
+				5B540DF127BA68670038B664 /* FMDatabaseQueue.m */,
+				5B540DF527BA68680038B664 /* FMDB.h */,
+				5B540DFA27BA68680038B664 /* FMResultSet.h */,
+				5B540DF727BA68680038B664 /* FMResultSet.m */,
+				5B540DEF27BA68670038B664 /* SozlukUygulamasi-Bridging-Header.h */,
+				5B540E0127BA75A00038B664 /* Kelimelerdao.swift */,
 			);
 			path = SozlukUygulamasi;
 			sourceTree = "<group>";
@@ -193,6 +248,7 @@
 				TargetAttributes = {
 					79325EEA22F03B0300B21CCA = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1250;
 					};
 					79325EFE22F03B0500B21CCA = {
 						CreatedOnToolsVersion = 10.3;
@@ -256,8 +312,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79325F2122F03D6F00B21CCA /* Kelimeler.swift in Sources */,
+				5B540DFB27BA68680038B664 /* FMDatabasePool.m in Sources */,
+				5B540E0227BA75A00038B664 /* Kelimelerdao.swift in Sources */,
 				79325EF122F03B0300B21CCA /* ViewController.swift in Sources */,
+				5B540DFC27BA68680038B664 /* FMDatabaseQueue.m in Sources */,
+				79325F1D22F03BE400B21CCA /* KelimeHucreTableViewCell.swift in Sources */,
 				79325EEF22F03B0300B21CCA /* AppDelegate.swift in Sources */,
+				5B540DFE27BA68680038B664 /* FMResultSet.m in Sources */,
+				79325F1F22F03CB600B21CCA /* KelimeDetayViewController.swift in Sources */,
+				5B540DFD27BA68680038B664 /* FMDatabase.m in Sources */,
+				5B540DFF27BA68680038B664 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SozlukUygulamasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +506,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SozlukUygulamasi/SozlukUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SozlukUygulamasi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SozlukUygulamasi/SozlukUygulamasi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
